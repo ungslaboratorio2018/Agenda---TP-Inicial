@@ -16,6 +16,5 @@ public class Main
 		Agenda modelo = new Agenda(new DAOSQLFactory());
 		Controlador controlador = new Controlador(vista, modelo);
 		controlador.inicializar();
-		controlador.getClass();
 	}
 }
